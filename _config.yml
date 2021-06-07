@@ -3,8 +3,8 @@ title: 74 Mademoiselle
 email: contact@74mademoiselle.fr
 phone: 0123456789
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "74mademoiselle.fr" # the base hostname & protocol for your site
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "74mademoiselle.fr" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
