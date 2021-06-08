@@ -1,10 +1,11 @@
+{% assign section = site.sections | find: "id", "header" %}
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>74 mademoiselle</h1>
+            <h1>{{ section.title }}</h1>
             <hr>
-            <p>Introduction TODO</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">En savoir plus</a>
+            <p>{{ section.content | markdownify }}</p>
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ section.CTA }}</a>
         </div>
     </div>
 </header>
