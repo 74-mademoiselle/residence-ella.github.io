@@ -12,7 +12,7 @@ sections:
   templates:
   - section
 - type: document
-  path: _data/data.yml
+  path: _data/data.yaml
   label: Données globales
 - type: directory
   path: _includes
