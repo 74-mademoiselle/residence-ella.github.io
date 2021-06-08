@@ -4,7 +4,7 @@ layout: default
 
 {% include nav.html %}
 
-{% assign section = site.sections | where: "id", "header" | first %}
+{% assign section = site.sections|where:"sid","header"|first %}
 <header>
     <div class="header-content">
         <div class="header-content-inner">
