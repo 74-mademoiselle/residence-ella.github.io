@@ -12,8 +12,8 @@ sections:
   templates:
   - section
 - type: document
-  path: _config.yml
-  label: Config
+  path: _data/data.yml
+  label: Données globales
 - type: directory
   path: _includes
   label: Includes
