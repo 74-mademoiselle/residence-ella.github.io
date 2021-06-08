@@ -1,3 +1,17 @@
 ---
-layout: front
+layout: default
 ---
+
+{% include nav.html %}
+
+{% assign section = site.sections | find: "id", "header" %}
+{% include header.html section=section %}
+
+{% include about.html %}
+{% include services.html %}
+{% include photos.html %}
+{% include prices.html %}
+{% include booklet.html %}
+{% include contact.html %}
+{% include legals.html %}
+{% include scripts.html %}
