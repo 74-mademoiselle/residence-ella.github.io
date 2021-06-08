@@ -10,6 +10,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: document
+  path: _config.yml
+  label: Config
+  match: "**/*"
+  read_only: false
 - type: directory
   path: _includes
   label: Includes
