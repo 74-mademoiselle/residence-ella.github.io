@@ -17,6 +17,11 @@ layout: default
 </header>
 
 
+{% for section in site.sections %}
+  <p>{{ section.title }}</p>
+{% endfor %}
+
+
 {% include about.html %}
 {% include services.html %}
 {% include photos.html %}
