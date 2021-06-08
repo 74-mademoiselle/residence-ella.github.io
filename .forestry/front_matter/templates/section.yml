@@ -7,3 +7,8 @@ fields:
   config:
     required: true
   label: Titre
+- name: CTA
+  type: text
+  config:
+    required: false
+  label: Texte du bouton
