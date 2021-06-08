@@ -3,25 +3,7 @@ layout: default
 ---
 
 {% include nav.html %}
-
-{% assign section = site.sections|where:"sid","header"|first %}
-<header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>{{ section.title }}</h1>
-            <hr>
-            <p>{{ section.output }}</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ section.CTA }}</a>
-        </div>
-    </div>
-</header>
-
-
-{% for section in site.sections %}
-  <p>{{ section.title }}</p>
-{% endfor %}
-
-
+{% include header.html %}
 {% include about.html %}
 {% include services.html %}
 {% include photos.html %}
