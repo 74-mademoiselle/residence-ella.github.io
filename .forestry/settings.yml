@@ -5,13 +5,20 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _sections
+  label: Sections
+  create: documents
+  match: "**/*"
+  templates:
+  - section
+- type: document
+  path: _config.yml
+  label: Config
+- type: directory
   path: _includes
   label: Includes
   create: all
   match: "**/*"
-- type: document
-  path: _config.yml
-  label: Config
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''
