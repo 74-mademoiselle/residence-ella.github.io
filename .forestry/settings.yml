@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: _data/services.yaml
-  label: Services
-  match: "**/*"
 - type: directory
   path: _sections
   label: Sections
@@ -15,6 +11,9 @@ sections:
   match: "**/*"
   templates:
   - section
+- type: document
+  path: _data/services.yaml
+  label: Services
 - type: document
   path: _data/global.yaml
   label: Données globales
