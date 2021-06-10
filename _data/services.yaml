@@ -1,20 +1,20 @@
 services:
-  - icon: fa-broom
-    title: Ménage
+  - title: Ménage
+    icon: fa-broom
     description: Description Ménage TODO
     delay: 0s
 
-  - icon: fa-mug-hot
-    title: Petit-déjeuner
+  - title: Petit-déjeuner
+    icon: fa-mug-hot
     description: Description Petit-déjeuner TODO
     delay: 0.1s
 
-  - icon: fa-spa
-    title: Spa
+  - title: Spa
+    icon: fa-spa
     description: Sauna/Hammam
     delay: 0.2s
 
-  - icon: fa-dumbbell
-    title: Salle de sport
+  - title: Salle de sport
+    icon: fa-dumbbell
     description: Description Salle de sport TODO
     delay: 0.3s
