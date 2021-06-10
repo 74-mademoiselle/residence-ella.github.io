@@ -1,8 +1,9 @@
+{% assign section = site.sections|where:"sid","services"|first %}
 <section id="services">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Nos services</h2>
+                <h2 class="section-heading">{{ section.title }}</h2>
                 <hr class="primary">
             </div>
         </div>
@@ -11,30 +12,30 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fas fa-4x fa-broom wow bounceIn text-primary"></i>
-                    <h3>Ménage</h3>
-                    <p class="text-muted">Description Ménage TODO</p>
+                    <i class="fas fa-4x {{ section.services.service1.icon }} wow bounceIn text-primary"></i>
+                    <h3>{{ section.services.service1.title }}</h3>
+                    <p class="text-muted">{{ section.services.service1.description }}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fas fa-4x fa-mug-hot wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Petit-déjeuner</h3>
-                    <p class="text-muted">Description Petit-déjeuner TODO</p>
+                    <i class="fas fa-4x {{ section.services.service2.icon }} wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <h3>{{ section.services.service2.title }}</h3>
+                    <p class="text-muted">{{ section.services.service2.description }}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fas fa-4x fa-spa wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Spa</h3>
-                    <p class="text-muted">Sauna/Hammam</p>
+                    <i class="fas fa-4x {{ section.services.service3.icon }} wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3>{{ section.services.service3.title }}</h3>
+                    <p class="text-muted">{{ section.services.service3.description }}</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
-                    <i class="fas fa-4x fa-dumbbell wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Salle de sport</h3>
-                    <p class="text-muted">Description Salle de sport TODO</p>
+                    <i class="fas fa-4x {{ section.services.service4.icon }} wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3>{{ section.services.service4.title }}</h3>
+                    <p class="text-muted">{{ section.services.service4.description }}</p>
                 </div>
             </div>
         </div>
