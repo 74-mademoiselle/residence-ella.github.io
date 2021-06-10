@@ -1,4 +1,14 @@
 ---
 label: Service
 hide_body: true
-fields: []
+fields:
+- name: icon
+  type: text
+  config:
+    required: false
+  label: Icon
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titre
