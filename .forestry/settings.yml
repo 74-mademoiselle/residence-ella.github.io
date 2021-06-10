@@ -12,7 +12,7 @@ sections:
   templates:
   - section
 - type: document
-  path: _data/data.yaml
+  path: _data/global.yaml
   label: Données globales
 upload_dir: img
 public_path: "/img"
