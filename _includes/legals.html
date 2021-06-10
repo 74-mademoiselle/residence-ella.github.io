@@ -1,8 +1,9 @@
+{% assign section = site.sections|where:"sid","legals"|first %}
 <section id="legals">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p>Mentions légales TODO</p>
+                <p>{{ section.output }}</p>
             </div>
         </div>
     </div>
