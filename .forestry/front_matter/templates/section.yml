@@ -12,3 +12,16 @@ fields:
   config:
     required: false
   label: Texte du bouton
+- name: services
+  type: field_group_list
+  fields:
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: services
