@@ -11,11 +11,6 @@ sections:
   match: "**/*"
   templates:
   - section
-- type: directory
-  path: img
-  label: Photos
-  create: all
-  match: "**/*"
 - type: document
   path: _data/data.yaml
   label: Données globales
