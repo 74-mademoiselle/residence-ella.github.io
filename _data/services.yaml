@@ -1,9 +1,5 @@
 ---
 services:
-- title: Acceuil
-  icon: fa-smile-beam
-  description: Avec le sourrire
-  delay: 0.4s
 - title: Ménage
   icon: fa-broom
   description: Description Ménage TODO
@@ -12,6 +8,10 @@ services:
   icon: fa-mug-hot
   description: Description Petit-déjeuner TODO
   delay: 0.1s
+- title: Acceuil
+  icon: fa-smile-beam
+  description: Avec le sourrire
+  delay: 0.4s
 - title: Spa
   icon: fa-spa
   description: Sauna/Hammam
