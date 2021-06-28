@@ -39,6 +39,12 @@ $theme-dark: #222;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "mixins",
-        "base"
+    "mixins",
+    "base"
 ;
+
+
+#tenant-body{
+    background: #6a8f91;
+    height: 100%;
+}
