@@ -9,11 +9,11 @@ body {
 }
 
 #tenant-body{
-    background: #6a8f91;
     height: 100%;
 
     .navbar{
         margin-bottom: 0;
+        background: #39696c;
     }
 }
 
@@ -231,12 +231,6 @@ header {
     }
     p {
         margin-bottom: 0;
-    }
-
-    &.tenant{
-        background: #e6eced;
-        padding-bottom: 20px;
-        padding-top: 20px;
     }
 }
 
