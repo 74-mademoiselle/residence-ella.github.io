@@ -248,6 +248,13 @@ header {
     p {
         margin-bottom: 0;
     }
+
+    &.tenant{
+        border: solid 2px #ccc;
+        border-radius: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 
