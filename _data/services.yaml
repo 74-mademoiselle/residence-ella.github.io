@@ -1,5 +1,9 @@
 ---
 services:
+- title: Accueil
+  icon: ''
+  description: ''
+  delay: ''
 - title: Ménage
   icon: fa-broom
   description: Description Ménage TODO
