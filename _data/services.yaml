@@ -1,9 +1,5 @@
 ---
 services:
-- title: Accueil
-  icon: address-card
-  description: Gardiennage de votre immeuble 7/7
-  delay: ''
 - title: Ménage
   icon: fa-broom
   description: Description Ménage TODO
