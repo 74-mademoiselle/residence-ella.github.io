@@ -1,8 +1,8 @@
 ---
 services:
 - title: Accueil
-  icon: ''
-  description: ''
+  icon: address-card
+  description: Gardiennage de votre immeuble 7/7
   delay: ''
 - title: Ménage
   icon: fa-broom
@@ -11,7 +11,7 @@ services:
 - title: Petit-déjeuner
   icon: fa-mug-hot
   description: Description Petit-déjeuner TODO
-  delay: 0.1s
+  delay: 0.5s
 - title: Acceuil
   icon: fa-smile-beam
   description: Avec le sourrire
