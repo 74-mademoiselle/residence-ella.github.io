@@ -6,7 +6,7 @@ services:
   delay: 0s
 - title: Petit-déjeuner
   icon: fa-mug-hot
-  description: A la carte (voir tarif)
+  description: En Salle ou en Chambre à vous de choisir (voir tarif)
   delay: 0.5s
 - title: Acceuil
   icon: fa-smile-beam
