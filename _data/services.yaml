@@ -10,7 +10,7 @@ services:
   delay: 0.5s
 - title: Acceuil
   icon: fa-smile-beam
-  description: 7/7 24/24 à votre service
+  description: 7/7, 24/24, à votre service...
   delay: 0.4s
 - title: Spa
   icon: fa-spa
