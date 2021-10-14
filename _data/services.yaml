@@ -14,7 +14,7 @@ services:
   delay: 0.4s
 - title: Spa
   icon: fa-spa
-  description: Sauna/Hammam privatisé
+  description: Sauna et Hammam privatisé
   delay: 0.9s
 - title: Salle de sport
   icon: fa-dumbbell
