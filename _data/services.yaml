@@ -10,7 +10,7 @@ services:
   delay: 0.5s
 - title: Acceuil
   icon: fa-smile-beam
-  description: Avec le sourrire
+  description: 7/7 24/24 avec un présentiel de 7h à 11h et de 17h à 22h
   delay: 0.4s
 - title: Spa
   icon: fa-spa
