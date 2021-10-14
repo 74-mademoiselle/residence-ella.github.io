@@ -6,7 +6,7 @@ services:
   delay: 0s
 - title: Petit-déjeuner
   icon: fa-mug-hot
-  description: Description Petit-déjeuner TODO
+  description: A la carte (voir tarif)
   delay: 0.5s
 - title: Acceuil
   icon: fa-smile-beam
