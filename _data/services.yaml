@@ -1,5 +1,9 @@
 ---
 services:
+- title: 'Laverie '
+  icon: ''
+  description: '1 machine de 11kg, 2 machine de 7kg et 2 sèche linge '
+  delay: 1s
 - title: Ménage
   icon: fa-broom
   description: '1 fois tous les 15 jours compris dans les charges du loyer '
