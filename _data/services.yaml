@@ -1,16 +1,11 @@
 ---
 services:
 - title: Repassage
-  icon: fa-shirt
+  icon: ''
   description: Repassage sur demande (voir tarif)
   delay: ''
-- title: 'Laverie '
-  icon: fa-tshirt
-  description: '1 machine de 11kg, 2 machine de 7kg (équipe d''un distributeur de
-    lessive) et 2 sèche linge '
-  delay: 1s
 - title: Ménage
-  icon: fa-broom
+  icon: fa-quidditch
   description: '1 fois tous les 15 jours compris dans les charges du loyer '
   delay: 1s
 - title: Petit-déjeuner
@@ -29,3 +24,8 @@ services:
   icon: fa-dumbbell
   description: Se maintenir en forme, c'est essentiel...
   delay: 0.3s
+- title: 'Laverie '
+  icon: fa-tshirt
+  description: '1 machine de 11kg, 2 machine de 7kg (équipe d''un distributeur de
+    lessive) et 2 sèche linge '
+  delay: 1s
