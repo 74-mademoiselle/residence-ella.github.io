@@ -14,8 +14,8 @@ services:
   delay: 0.4s
 - title: Spa
   icon: fa-spa
-  description: Sauna/Hammam privatiser
-  delay: 0.2s
+  description: Sauna/Hammam privatisé
+  delay: 0.9s
 - title: Salle de sport
   icon: fa-dumbbell
   description: Ce maintenir en forme, c'est essentiel...
