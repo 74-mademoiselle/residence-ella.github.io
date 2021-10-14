@@ -27,5 +27,5 @@ services:
   delay: 0.9s
 - title: Salle de sport
   icon: fa-dumbbell
-  description: Ce maintenir en forme, c'est essentiel...
+  description: Se maintenir en forme, c'est essentiel...
   delay: 0.3s
