@@ -6,7 +6,8 @@ services:
   delay: ''
 - title: 'Laverie '
   icon: ''
-  description: '1 machine de 11kg, 2 machine de 7kg et 2 sèche linge '
+  description: '1 machine de 11kg, 2 machine de 7kg (équipe d''un distributeur de
+    lessive) et 2 sèche linge '
   delay: 1s
 - title: Ménage
   icon: fa-broom
