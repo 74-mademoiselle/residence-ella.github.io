@@ -8,6 +8,10 @@ body {
     @include serif-font;
 }
 
+.portfolio-image{
+    max-height: 380px;
+}
+
 #tenant-body{
     height: 100%;
 
