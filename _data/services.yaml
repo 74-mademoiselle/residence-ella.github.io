@@ -1,7 +1,7 @@
 ---
 services:
 - title: Repassage
-  icon: ''
+  icon: fa-regular fa-washing-machine
   description: Repassage sur demande (voir tarif)
   delay: ''
 - title: 'Laverie '
