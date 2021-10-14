@@ -18,5 +18,5 @@ services:
   delay: 0.2s
 - title: Salle de sport
   icon: fa-dumbbell
-  description: Description Salle de sport TODO
+  description: ce maintenir en forme, c'est essentiel...
   delay: 0.3s
