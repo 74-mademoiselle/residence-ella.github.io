@@ -1,7 +1,7 @@
 ---
 services:
 - title: Repassage
-  icon: fa-solid fa-shirt
+  icon: fa-shirt
   description: Repassage sur demande (voir tarif)
   delay: ''
 - title: 'Laverie '
