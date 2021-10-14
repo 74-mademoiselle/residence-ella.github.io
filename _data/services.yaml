@@ -2,7 +2,7 @@
 services:
 - title: Ménage
   icon: fa-broom
-  description: Description Ménage TODO
+  description: '1 fois tous les 15j compris dans le loyer '
   delay: 0s
 - title: Petit-déjeuner
   icon: fa-mug-hot
