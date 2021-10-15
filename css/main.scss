@@ -37,10 +37,6 @@
 $theme-primary: #074447;
 $theme-dark: #222;
 
-.portfolio-image{
-    max-height: 380px;
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "mixins",
