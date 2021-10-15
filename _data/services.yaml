@@ -11,11 +11,11 @@ services:
 - title: Ménage
   icon: fa-quidditch
   description: '1 fois tous les 15 jours compris dans les charges du loyer '
-  delay: 1s
+  delay: 0.6s
 - title: Petit-déjeuner
   icon: fa-mug-hot
   description: En Salle ou en Chambre à vous de choisir (voir tarif)
-  delay: 0.5s
+  delay: 0.8s
 - title: Repassage
   icon: fa-tshirt
   description: Repassage sur demande (voir tarif)
