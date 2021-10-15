@@ -7,7 +7,7 @@ services:
 - title: Spa
   icon: fa-spa
   description: Sauna et Hammam privatisé
-  delay: 0.9s
+  delay: 0.4s
 - title: Ménage
   icon: fa-quidditch
   description: '1 fois tous les 15 jours compris dans les charges du loyer '
