@@ -19,11 +19,11 @@ services:
 - title: Repassage
   icon: fa-tshirt
   description: Repassage sur demande (voir tarif)
-  delay: ''
+  delay: 0.2s
 - title: Salle de sport
   icon: fa-dumbbell
   description: Se maintenir en forme, c'est essentiel...
-  delay: 0.3s
+  delay: 0.4s
 - title: 'Laverie '
   icon: fa-tshirt
   description: '1 machine de 11kg, 2 machine de 7kg (équipe d''un distributeur de
