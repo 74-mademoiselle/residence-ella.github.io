@@ -3,7 +3,7 @@ services:
 - title: Acceuil
   icon: fa-smile-beam
   description: 7/7, 24/24, à votre service...
-  delay: 0.4s
+  delay: 0.1s
 - title: Spa
   icon: fa-spa
   description: Sauna et Hammam privatisé
