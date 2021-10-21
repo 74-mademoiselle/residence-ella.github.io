@@ -25,7 +25,7 @@ services:
   description: Se maintenir en forme, c'est essentiel...
   delay: 0.4s
 - title: 'Laverie '
-  icon: fa-tshirt
+  icon: fa-cloudversify
   description: '1 machine de 11kg, 2 machine de 7kg (équipe d''un distributeur de
     lessive) et 2 sèche linge '
   delay: 0.6s
