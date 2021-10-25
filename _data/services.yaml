@@ -31,5 +31,5 @@ services:
   delay: 0.6s
 - title: Local vélo
   delay: 0.8s
-  description: fermé à clé (jusqu'a 15 vélos)
+  description: Fermé à clé (jusqu'a 15 vélos)
   icon: fa-biking
