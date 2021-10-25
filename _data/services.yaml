@@ -14,7 +14,7 @@ services:
   delay: 0.6s
 - title: Petit-déjeuner
   icon: fa-mug-hot
-  description: En salle ou en chambre, à vous de choisir (voir tarif)
+  description: En salle ou en chambre, à vous de choisir (voir tarifs)
   delay: 0.8s
 - title: Repassage
   icon: fa-tshirt
