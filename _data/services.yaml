@@ -10,7 +10,7 @@ services:
   delay: 0.4s
 - title: Ménage
   icon: fa-quidditch
-  description: '1 fois tous les 15 jours compris dans les charges du loyer '
+  description: 'Une fois tous les 15 jours compris dans les charges du loyer '
   delay: 0.6s
 - title: Petit-déjeuner
   icon: fa-mug-hot
