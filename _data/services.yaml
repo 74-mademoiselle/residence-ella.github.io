@@ -26,8 +26,8 @@ services:
   delay: 0.4s
 - title: 'Laverie '
   icon: fa-meteor
-  description: '1 machine de 11kg, 2 machine de 7kg (équipe d''un distributeur de
-    lessive) et 2 sèche linge '
+  description: 1 machine de 11kg, 2 machines de 7kg (équipée d'un distributeur de
+    lessive) et 2 sèches-linges
   delay: 0.6s
 - title: Local vélo
   delay: 0.8s
