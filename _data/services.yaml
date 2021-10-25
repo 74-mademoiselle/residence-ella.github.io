@@ -6,7 +6,7 @@ services:
   delay: 0.2s
 - title: Spa
   icon: fa-spa
-  description: Sauna et Hammam privatisé
+  description: Sauna et hammam privatisé
   delay: 0.4s
 - title: Ménage
   icon: fa-quidditch
