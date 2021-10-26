@@ -16,11 +16,15 @@ body {
 .ella{
     font-family: "Kunstler Script", serif;
     font-size: 175%;
-    transform: rotate(-15deg);
+    color: white;
+    text-transform: initial;
+
     display: inline-block;
+    transform: rotate(-15deg);
     position: relative;
     left: -20px;
     bottom: -35px;
+    margin-bottom: 35px;
 }
 
 .portfolio-image{
