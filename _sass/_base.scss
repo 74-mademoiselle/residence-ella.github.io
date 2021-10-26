@@ -16,7 +16,6 @@ body {
 .ella{
     font-family: "Kunstler Script", serif;
     font-size: 175%;
-    color: white;
     text-transform: initial;
 
     display: inline-block;
@@ -212,6 +211,7 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            color: white;
             background-color: rgba(7, 68, 71, 0.7);
             padding: 2em;
 
