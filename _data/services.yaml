@@ -1,6 +1,6 @@
 ---
 services:
-- title: Acceuil
+- title: Accueil
   icon: fa-smile-beam
   description: 7/7, 24/24, à votre service...
   delay: 0.2s
