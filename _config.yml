@@ -4,8 +4,5 @@ description: > # this means to ignore newlines until "baseurl:"
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "74mademoiselle.fr" # the base hostname & protocol for your site
 
-collections:
-  - sections
-
 # Build settings
 markdown: kramdown
