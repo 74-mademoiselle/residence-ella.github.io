@@ -1,9 +1,0 @@
----
-label: Services
-hide_body: true
-fields:
-- name: services
-  type: include
-  config: {}
-  template: service
-  label: Services
