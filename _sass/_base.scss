@@ -202,7 +202,15 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+
+    &#landing-header{
+        background-image: url('../img/landing/header.jpg');
+    }
+    &#comeeting-header{
+        background-image: url('../img/comeeting/header.jpeg');
+    }
+
+
     text-align: center;
     // color: white;
     .header-content {
