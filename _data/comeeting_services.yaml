@@ -27,17 +27,17 @@ services:
 
 capacities:
 - title: Réunion
-  icon: fa-meeting
+  image: meeting
   attendee: 14
 - title: U
-  icon: fa-meeting
+  image: U
   attendee: 15
 - title: Cabaret
-  icon: fa-meeting
+  image: cabaret
   attendee: 10
 - title: Rang d'école
-  icon: fa-meeting
+  image: classroom
   attendee: 20
 - title: Cocktail
-  icon: fa-meeting
+  image: cocktail
   attendee: 30
