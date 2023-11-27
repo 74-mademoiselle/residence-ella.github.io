@@ -24,3 +24,20 @@ services:
   icon: fa-kitchen-set
   description:
   delay: 0.4s
+
+capacities:
+- title: Réunion
+  icon: fa-meeting
+  attendee: 14
+- title: U
+  icon: fa-meeting
+  attendee: 15
+- title: Cabaret
+  icon: fa-meeting
+  attendee: 10
+- title: Rang d'école
+  icon: fa-meeting
+  attendee: 20
+- title: Cocktail
+  icon: fa-meeting
+  attendee: 30
