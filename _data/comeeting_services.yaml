@@ -17,11 +17,11 @@ services:
   description:
   delay: 0.8s
 - title: Accès PMR
-  icon: fa-accessible-icon
+  icon: fa-wheelchair
   description:
   delay: 0.2s
 - title: Cuisine événementielle
-  icon: fa-kitchen-set
+  icon: fa-utensils
   description:
   delay: 0.4s
 
