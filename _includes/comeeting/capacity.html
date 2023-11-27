@@ -11,10 +11,10 @@
         <div class="row">
             {% for capacity in site.data.comeeting_services.capacities %}
                 <div class="col-lg-2 col-md-6 text-center">
-                    <div class="service-box">
-                        <img src="/img/comeeting/capacity/{{ capacity.image }}.svg" class="img-responsive">
-                        <h3>{{ capacity.title }}</h3>
-                        <h4>{{ capacity.attendee }}</h4>
+                    <div class="service-box text-center">
+                        <img src="/img/comeeting/capacity/{{ capacity.image }}.svg">
+                        <h4>{{ capacity.title }}</h4>
+                        <h3>{{ capacity.attendee }}</h3>
                     </div>
                 </div>
             {% endfor %}
