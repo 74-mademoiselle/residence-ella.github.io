@@ -55,10 +55,6 @@ body {
     margin-top: 40px;
 }
 
-#capacity{
-    padding-bottom: 0;
-}
-
 hr {
     border-color: $theme-primary;
     border-width: 3px;
@@ -269,6 +265,10 @@ header {
 }
 
 // Sections
+
+section#capacity{
+    padding-bottom: 0;
+}
 
 .section-heading {
     margin-top: 0;

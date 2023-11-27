@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             {% for capacity in site.data.comeeting_services.capacities %}
-                <div class="col-lg-2 col-md-6 text-center">
+                <div class="col-lg-2 col-md-6 text-center {%if capacity.image == 'meeting' %}offset-lg-1{%endif}">
                     <div class="service-box text-center">
                         <img src="/img/comeeting/capacity/{{ capacity.image }}.svg">
                         <h4>{{ capacity.title }}</h4>
