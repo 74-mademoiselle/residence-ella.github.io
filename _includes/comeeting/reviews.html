@@ -17,7 +17,7 @@
                 let adElement = document.querySelector("section#reviews .es-main-content + script + a")
 
                 if(adElement) {
-                    adElement.style.display = 'none';
+                    adElement.remove();
                 } else {
                     retry--;
                     if(retry >= 0){
