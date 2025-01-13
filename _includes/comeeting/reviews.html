@@ -10,5 +10,23 @@
     <div>
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
         <div class="elfsight-app-63edfe18-e7ec-4bab-89fd-40951b782838" data-elfsight-app-lazy></div>
+
+        <script>
+            retry = 20;
+            function checkAd() {
+                let adElement = document.querySelector("section#reviews .es-main-content + script + a")
+
+                if(adElement) {
+                    adElement.style.display = 'none';
+                } else {
+                    retry--;
+                    if(retry >= 0){
+                        window.setTimeout(checkAd, 500);
+                    }
+                }
+            }
+            checkAd();
+        </script>
+
     </div>
 </section>
