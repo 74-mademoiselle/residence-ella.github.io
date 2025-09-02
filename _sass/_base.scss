@@ -39,7 +39,7 @@ body {
     }
 }
 
-.navlink-primary{
+#navlink-primary{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 5px;
@@ -119,6 +119,7 @@ aside {
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
+
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -155,6 +156,8 @@ aside {
             }
         }
     }
+
+    /*
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: rgba(white, .3);
@@ -192,6 +195,7 @@ aside {
             }
         }
     }
+     */
 }
 
 // Homepage Header
