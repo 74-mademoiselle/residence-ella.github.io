@@ -45,6 +45,11 @@ body {
     margin-top: 5px;
     margin-right: 5px;
     color: rgba(255,255,255,0.7);
+
+  &:hover{
+    color: rgba(255,255,255,0.7);
+    background-color: #074447;
+  }
 }
 
 #tenantHome{
