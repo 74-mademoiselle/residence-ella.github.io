@@ -39,16 +39,16 @@ body {
     }
 }
 
-#navlink-primary{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 5px;
-    margin-right: 5px;
-    color: rgba(255,255,255,0.7);
+.navlink-primary{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 5px !important;
+    margin-right: 5px !important;
+    color: rgba(255,255,255,0.8) !important;
 
   &:hover{
-    color: rgba(255,255,255,0.7);
-    background-color: #074447;
+    color: rgba(255,255,255,0.9) !important;
+    background-color: #074447 !important;
   }
 }
 
@@ -104,11 +104,15 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(white, .9);
 }
 
 section {
     padding: 100px 0;
+
+    @media (max-width: 768px) {
+        padding: 50px 0;
+    }
 }
 
 aside {
@@ -213,10 +217,12 @@ header {
     background-position: center;
 
     &#landing-header{
-        background-image: url('../img/landing/header.jpg');
+        background-image: url('../img/landing/header.jpg'); // Fallback
+        background-image: url('../img/landing/header.webp');
     }
     &#comeeting-header{
-        background-image: url('../img/comeeting/header.jpeg');
+        background-image: url('../img/comeeting/header.jpeg'); // Fallback
+        background-image: url('../img/comeeting/header.webp');
     }
 
 
@@ -237,6 +243,10 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
+
+                @media (max-width: 768px) {
+                    font-size: 30px;
+                }
             }
             hr {
                 margin: 30px auto;
@@ -394,6 +404,12 @@ section#capacity{
 
 .btn-xl {
     padding: 15px 30px;
+
+    @media (max-width: 768px) {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
 }
 
 // Contact
