@@ -8,3 +8,6 @@ image: "/img/landing/header.jpg" # Image par défaut pour le partage RS
 markdown: kramdown
 sass:
   style: compressed
+
+plugins:
+  - jekyll-sitemap
