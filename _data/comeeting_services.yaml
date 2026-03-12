@@ -2,27 +2,27 @@
 services:
 - title: Climatisation
   icon: fa-snowflake
-  description:
+  description: Température idéale garantie, hiver comme été, pour votre confort.
   delay: 0.2s
 - title: Wifi
   icon: fa-wifi
-  description:
+  description: Fibre optique haut débit pour des visioconférences fluides et rapides.
   delay: 0.4s
 - title: Flipboard
   icon: fa-chalkboard-teacher
-  description: Paperboard électronique
+  description: Paperboard électronique pour dynamiser vos présentations et ateliers.
   delay: 0.6s
 - title: Visioconférence professionnelle
   icon: fa-video
-  description:
+  description: Équipement audio et vidéo de pointe pour vos réunions hybrides.
   delay: 0.8s
 - title: Accès PMR
   icon: fa-wheelchair
-  description:
+  description: Espace entièrement accessible aux personnes à mobilité réduite.
   delay: 0.2s
 - title: Cuisine événementielle
   icon: fa-utensils
-  description:
+  description: Cuisine moderne et équipée pour vos pauses café ou déjeuners traiteur.
   delay: 0.4s
 
 capacities:
