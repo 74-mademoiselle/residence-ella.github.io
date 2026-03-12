@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ApartmentComplex",
+      "@id": "{{ site.url }}/#residence",
+      "name": "Résidence Ella",
+      "url": "{{ site.url }}/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "74 Rue Mademoiselle",
+        "addressLocality": "Paris",
+        "postalCode": "75015",
+        "addressCountry": "FR"
+      },
+      "telephone": "{{ site.data.global.phone }}",
+      "description": "Résidence d'habitation haut de gamme à Paris 15 avec services : salle de sport, spa, laverie et salle de réunion."
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "{{ site.url }}/comeeting/#business",
+      "name": "CoMeeting Résidence Ella",
+      "url": "{{ site.url }}/comeeting/",
+      "image": "{{ site.url }}/img/comeeting/header.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "74 Rue Mademoiselle",
+        "addressLocality": "Paris",
+        "postalCode": "75015",
+        "addressCountry": "FR"
+      },
+      "telephone": "{{ site.data.global.comeeting_phone }}",
+      "priceRange": "$$",
+      "description": "Salle de réunion de 90m² à louer à Paris 15. Espace modulable et équipé pour séminaires et événements professionnels."
+    }
+  ]
+}
+</script>
