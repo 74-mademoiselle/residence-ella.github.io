@@ -9,5 +9,12 @@ markdown: kramdown
 sass:
   style: compressed
 
+# Compression des assets
+compress: true
+
+# Minification CSS/JS
+minify_css: true
+minify_js: true
+
 plugins:
   - jekyll-sitemap
