@@ -3,25 +3,9 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "ApartmentComplex",
-      "@id": "{{ site.url }}/#residence",
-      "name": "Résidence Ella",
-      "url": "{{ site.url }}/",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "74 Rue Mademoiselle",
-        "addressLocality": "Paris",
-        "postalCode": "75015",
-        "addressCountry": "FR"
-      },
-      "telephone": "{{ site.data.global.phone }}",
-      "description": "Résidence d'habitation haut de gamme à Paris 15 avec services : salle de sport, spa, laverie et salle de réunion."
-    },
-    {
-      "@type": "LocalBusiness",
-      "@id": "{{ site.url }}/comeeting/#business",
-      "name": "CoMeeting Résidence Ella",
-      "url": "{{ site.url }}/comeeting/",
+      "@type": "MeetingRoom",
+      "@id": "{{ site.url }}/comeeting",
+      "name": "CoMeeting Résidence Ella - Salle de Réunion et de Formation Paris 15",
       "image": "{{ site.url }}/img/comeeting/header.jpg",
       "address": {
         "@type": "PostalAddress",
@@ -32,7 +16,38 @@
       },
       "telephone": "{{ site.data.global.comeeting_phone }}",
       "priceRange": "$$",
-      "description": "Salle de réunion de 90m² à louer à Paris 15. Espace modulable et équipé pour séminaires et événements professionnels."
+      "description": "Salle de réunion 90m² modulable à Paris 15. Location à la journée ou demi-journée.",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          {"Monday": "08:00-20:00"},
+          {"Tuesday": "08:00-20:00"},
+          {"Wednesday": "08:00-20:00"},
+          {"Thursday": "08:00-20:00"},
+          {"Friday": "08:00-20:00"},
+          {"Saturday": "08:00-20:00"}
+        ]
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "ApartmentComplex",
+      "@id": "{{ site.url }}",
+      "name": "Résidence Ella Paris 15",
+      "image": "{{ site.url }}/img/residence.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "74 Rue Mademoiselle",
+        "addressLocality": "Paris",
+        "postalCode": "75015",
+        "addressCountry": "FR"
+      },
+      "telephone": "{{ site.data.global.phone }}",
+      "description": "Résidence haut de gamme avec salle de réunion, spa et services 24/7."
     }
   ]
 }
